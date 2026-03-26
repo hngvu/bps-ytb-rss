@@ -1,33 +1,42 @@
 name: Update YouTube RSS
 on:
   schedule:
-    - cron: '*/10 * * * *' # Chạy mỗi 10 phút
-  workflow_dispatch: # Cho phép nhấn nút chạy thủ công để test
+    # Chạy mỗi 20 phút (GitHub Cron miễn phí chạy ổn định nhất ở tầm 15-30p)
+    - cron: '*/20 * * * *' 
+  
+  # Trigger Webhook: Cho phép gọi API từ bên ngoài (Cron-job.org / UptimeRobot)
+  repository_dispatch:
+    types: [trigger_update]
+    
+  # Cho phép nhấn nút "Run workflow" thủ công trên web
+  workflow_dispatch:
 
 permissions:
-  contents: write
-  pages: write
-  id-token: write
+  contents: write # Quyền cực kỳ quan trọng để robot có thể Commit & Push file
 
 jobs:
-  build-and-deploy:
+  update-rss:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Setup Node
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - name: Fetch and Filter
+      - name: Fetch and Filter RSS
+        # Bước này chạy file index.js để tạo ra file rss.xml mới
         run: node index.js
 
-      - name: Upload Pages Artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: '.' # Upload toàn bộ thư mục (bao gồm file rss.xml mới tạo)
-
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
+      - name: Commit and Push if changed
+        run: |
+          # Thiết lập danh tính robot
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git add rss.xml
+          
+          git commit --allow-empty -m "Auto-update RSS: $(date)"
+          git push
