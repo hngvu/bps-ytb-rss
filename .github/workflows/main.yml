@@ -1,0 +1,33 @@
+name: Update YouTube RSS
+on:
+  schedule:
+    - cron: '*/10 * * * *' # Chạy mỗi 10 phút
+  workflow_dispatch: # Cho phép nhấn nút chạy thủ công để test
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch and Filter
+        run: node index.js
+
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.' # Upload toàn bộ thư mục (bao gồm file rss.xml mới tạo)
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
