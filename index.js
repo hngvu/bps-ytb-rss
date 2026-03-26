@@ -8,6 +8,11 @@ async function updateRSS() {
         const response = await fetch(YT_URL, {
             headers: { "User-Agent": "Mozilla/5.0" }
         });
+        
+        if (!response.ok) {
+            throw new Error(`YouTube API returned status: ${response.status}`);
+        }
+
         const fullXml = await response.text();
 
         fs.writeFileSync('rss.xml', fullXml);
