@@ -28,7 +28,7 @@
    <media:thumbnail url="https://i4.ytimg.com/vi/Cg4YePOXO4s/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="6" average="5.00" min="1" max="5"/>
+    <media:starRating count="7" average="5.00" min="1" max="5"/>
     <media:statistics views="390"/>
    </media:community>
   </media:group>
@@ -75,7 +75,7 @@ Timecodes:
 #bpstore #sama #liquidcooling #Q70 #LCD #pcbuild</media:description>
    <media:community>
     <media:starRating count="18" average="5.00" min="1" max="5"/>
-    <media:statistics views="556"/>
+    <media:statistics views="558"/>
    </media:community>
   </media:group>
  </entry>
@@ -357,7 +357,7 @@ Timecodes:
 #review #TRYX #turris620 #bpstore #tannhiet #aircooling #watercooling</media:description>
    <media:community>
     <media:starRating count="28" average="5.00" min="1" max="5"/>
-    <media:statistics views="1160"/>
+    <media:statistics views="1161"/>
    </media:community>
   </media:group>
  </entry>
