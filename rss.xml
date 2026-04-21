@@ -28,7 +28,7 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/PfXWQ0YH6aI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="2" average="5.00" min="1" max="5"/>
+    <media:starRating count="3" average="5.00" min="1" max="5"/>
     <media:statistics views="405"/>
    </media:community>
   </media:group>
@@ -120,7 +120,7 @@ Timecodes:
 #bpstore #computergaming #pcbuild #pcgaming #gamingcomputer #asus</media:description>
    <media:community>
     <media:starRating count="19" average="5.00" min="1" max="5"/>
-    <media:statistics views="676"/>
+    <media:statistics views="678"/>
    </media:community>
   </media:group>
  </entry>
@@ -411,7 +411,7 @@ Timecodes:
 #bpstore #moddingcafe #stealthtubing #rtx5080 #rtx5090 #astral #rog #watercooling #pcbuild</media:description>
    <media:community>
     <media:starRating count="150" average="5.00" min="1" max="5"/>
-    <media:statistics views="4701"/>
+    <media:statistics views="4702"/>
    </media:community>
   </media:group>
  </entry>
@@ -480,7 +480,7 @@ Timecodes:
 #review #unbox #msi #meg #x870e #godlike #limited #5090lightningz #amd #ryzen</media:description>
    <media:community>
     <media:starRating count="16" average="5.00" min="1" max="5"/>
-    <media:statistics views="518"/>
+    <media:statistics views="519"/>
    </media:community>
   </media:group>
  </entry>
