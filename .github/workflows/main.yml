@@ -38,5 +38,6 @@ jobs:
           
           git add rss.xml
           
-          git commit --allow-empty -m "Auto-update RSS: $(date)"
+          git commit --allow-empty -m "Auto-update RSS: $(date)" || exit 0
           git push
+        continue-on-error: true
