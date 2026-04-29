@@ -29,7 +29,7 @@
    <media:description></media:description>
    <media:community>
     <media:starRating count="5" average="5.00" min="1" max="5"/>
-    <media:statistics views="172"/>
+    <media:statistics views="179"/>
    </media:community>
   </media:group>
  </entry>
@@ -608,7 +608,7 @@ Timecodes:
 #review #TRYX #turris620 #bpstore #tannhiet #aircooling #watercooling</media:description>
    <media:community>
     <media:starRating count="29" average="5.00" min="1" max="5"/>
-    <media:statistics views="1252"/>
+    <media:statistics views="1253"/>
    </media:community>
   </media:group>
  </entry>
