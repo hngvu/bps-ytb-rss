@@ -39,5 +39,4 @@ jobs:
           git add rss.xml
           
           git commit --allow-empty -m "Auto-update RSS: $(date)" || exit 0
-          git push
-        continue-on-error: true
+          git push || echo "Push failed, but ignoring to suppress email"
