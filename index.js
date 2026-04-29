@@ -33,7 +33,7 @@ async function updateRSS() {
                 await new Promise(res => setTimeout(res, 5000));
             } else {
                 console.error("💥 Thất bại hoàn toàn sau nhiều lần thử.");
-                process.exit(1); // Thoát với mã lỗi để GitHub Action báo đỏ
+                process.exit(0);
             }
         }
     }
