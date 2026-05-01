@@ -28,8 +28,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/-evDiJ-dg6g/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="36" average="5.00" min="1" max="5"/>
-    <media:statistics views="1138"/>
+    <media:starRating count="38" average="5.00" min="1" max="5"/>
+    <media:statistics views="1201"/>
    </media:community>
   </media:group>
  </entry>
@@ -87,7 +87,7 @@
 #bpstore #9950x3d2 #pcbuild #pcgaming #AMD #asus #ryzen9950x3d2</media:description>
    <media:community>
     <media:starRating count="43" average="5.00" min="1" max="5"/>
-    <media:statistics views="1223"/>
+    <media:statistics views="1224"/>
    </media:community>
   </media:group>
  </entry>
@@ -378,7 +378,7 @@ Timecodes:
 #bpstore #moddingcafe #stealthtubing #rtx5090 #msi #5090lightningz #x870egodlike #watercooling #pcbuild</media:description>
    <media:community>
     <media:starRating count="92" average="5.00" min="1" max="5"/>
-    <media:statistics views="2594"/>
+    <media:statistics views="2593"/>
    </media:community>
   </media:group>
  </entry>
@@ -438,7 +438,7 @@ Timecodes:
    <uri>https://www.youtube.com/channel/UCeHc6r9TtpQaRTUDL-WRcMw</uri>
   </author>
   <published>2026-03-31T03:12:54+00:00</published>
-  <updated>2026-04-02T20:04:03+00:00</updated>
+  <updated>2026-04-30T02:13:44+00:00</updated>
   <media:group>
    <media:title>Đây là bộ pc mà anh em chơi không bao giờ bị vợ hay người yêu giận. #pcbuild #bpstore  #tryx #flova</media:title>
    <media:content url="https://www.youtube.com/v/i33zusGB9fU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -492,7 +492,7 @@ Timecodes:
 #bpstore #moddingcafe #stealthtubing #rtx5080 #rtx5090 #astral #rog #watercooling #pcbuild</media:description>
    <media:community>
     <media:starRating count="150" average="5.00" min="1" max="5"/>
-    <media:statistics views="4731"/>
+    <media:statistics views="4733"/>
    </media:community>
   </media:group>
  </entry>
