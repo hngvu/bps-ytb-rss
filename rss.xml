@@ -28,8 +28,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/-evDiJ-dg6g/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="25" average="5.00" min="1" max="5"/>
-    <media:statistics views="906"/>
+    <media:starRating count="26" average="5.00" min="1" max="5"/>
+    <media:statistics views="917"/>
    </media:community>
   </media:group>
  </entry>
@@ -446,7 +446,7 @@ Timecodes:
    <media:description></media:description>
    <media:community>
     <media:starRating count="15" average="5.00" min="1" max="5"/>
-    <media:statistics views="1490"/>
+    <media:statistics views="1491"/>
    </media:community>
   </media:group>
  </entry>
