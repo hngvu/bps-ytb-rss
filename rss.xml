@@ -28,8 +28,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/-evDiJ-dg6g/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="38" average="5.00" min="1" max="5"/>
-    <media:statistics views="1201"/>
+    <media:starRating count="37" average="5.00" min="1" max="5"/>
+    <media:statistics views="1234"/>
    </media:community>
   </media:group>
  </entry>
@@ -257,7 +257,7 @@ Timecodes:
 #bpstore #intel #coreultra #rtx5070 #msi #270kplus #Z890 #pcbuild</media:description>
    <media:community>
     <media:starRating count="22" average="5.00" min="1" max="5"/>
-    <media:statistics views="676"/>
+    <media:statistics views="678"/>
    </media:community>
   </media:group>
  </entry>
@@ -377,7 +377,7 @@ Timecodes:
 📌Hotline: 0938 889 100 © Bản quyền thuộc về BP Store 
 #bpstore #moddingcafe #stealthtubing #rtx5090 #msi #5090lightningz #x870egodlike #watercooling #pcbuild</media:description>
    <media:community>
-    <media:starRating count="92" average="5.00" min="1" max="5"/>
+    <media:starRating count="93" average="5.00" min="1" max="5"/>
     <media:statistics views="2595"/>
    </media:community>
   </media:group>
