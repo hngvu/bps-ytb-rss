@@ -28,8 +28,8 @@
    <media:thumbnail url="https://i2.ytimg.com/vi/-evDiJ-dg6g/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="32" average="5.00" min="1" max="5"/>
-    <media:statistics views="1022"/>
+    <media:starRating count="33" average="5.00" min="1" max="5"/>
+    <media:statistics views="1031"/>
    </media:community>
   </media:group>
  </entry>
@@ -87,7 +87,7 @@
 #bpstore #9950x3d2 #pcbuild #pcgaming #AMD #asus #ryzen9950x3d2</media:description>
    <media:community>
     <media:starRating count="43" average="5.00" min="1" max="5"/>
-    <media:statistics views="1223"/>
+    <media:statistics views="1220"/>
    </media:community>
   </media:group>
  </entry>
@@ -378,7 +378,7 @@ Timecodes:
 #bpstore #moddingcafe #stealthtubing #rtx5090 #msi #5090lightningz #x870egodlike #watercooling #pcbuild</media:description>
    <media:community>
     <media:starRating count="91" average="5.00" min="1" max="5"/>
-    <media:statistics views="2593"/>
+    <media:statistics views="2591"/>
    </media:community>
   </media:group>
  </entry>
@@ -561,7 +561,7 @@ Timecodes:
 #review #unbox #msi #meg #x870e #godlike #limited #5090lightningz #amd #ryzen</media:description>
    <media:community>
     <media:starRating count="16" average="5.00" min="1" max="5"/>
-    <media:statistics views="548"/>
+    <media:statistics views="547"/>
    </media:community>
   </media:group>
  </entry>
