@@ -298,7 +298,7 @@ Timecodes:
    <media:thumbnail url="https://i1.ytimg.com/vi/PfXWQ0YH6aI/hqdefault.jpg" width="480" height="360"/>
    <media:description></media:description>
    <media:community>
-    <media:starRating count="7" average="5.00" min="1" max="5"/>
+    <media:starRating count="6" average="5.00" min="1" max="5"/>
     <media:statistics views="585"/>
    </media:community>
   </media:group>
