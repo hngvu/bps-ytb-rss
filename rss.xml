@@ -28,7 +28,7 @@
    <media:thumbnail url="https://i1.ytimg.com/vi/piUE77bA4fY/hqdefault.jpg" width="480" height="360"/>
    <media:description>BỘ PC HOÀN THIỆN 90% RỒI, CHỈ CẦN LẮP CARD ĐỒ HỌA NỮA LÀ HOÀN CHỈNH. CÙNG SHOP LẮP CARD ASTRAL RTX 5080 WHITE OC EDITION CÁC BRO NHÉ.</media:description>
    <media:community>
-    <media:starRating count="4" average="5.00" min="1" max="5"/>
+    <media:starRating count="5" average="5.00" min="1" max="5"/>
     <media:statistics views="283"/>
    </media:community>
   </media:group>
@@ -109,7 +109,7 @@
 #bpstore  #pcgaming  #SharkPC #coolermaster #itx #rtx5080 #intel #asus</media:description>
    <media:community>
     <media:starRating count="22" average="5.00" min="1" max="5"/>
-    <media:statistics views="2151"/>
+    <media:statistics views="2161"/>
    </media:community>
   </media:group>
  </entry>
@@ -183,7 +183,7 @@
    <uri>https://www.youtube.com/channel/UCeHc6r9TtpQaRTUDL-WRcMw</uri>
   </author>
   <published>2026-09-15T12:30:23+00:00</published>
-  <updated>2026-09-22T07:45:49+00:00</updated>
+  <updated>2026-09-26T05:12:59+00:00</updated>
   <media:group>
    <media:title>BUILD PC | MSI MEG MAESTRO 900R + MSI E15 360 HOÀN HẢO VỚI RTX 5090 LIGHTNING Z</media:title>
    <media:content url="https://www.youtube.com/v/jOyDK_sOIZQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -227,7 +227,7 @@
 #bpstore  #pcgaming  #Aorus #AMD #rtx5090 #AMD #Corsair #whitepcbuild</media:description>
    <media:community>
     <media:starRating count="38" average="5.00" min="1" max="5"/>
-    <media:statistics views="6092"/>
+    <media:statistics views="6098"/>
    </media:community>
   </media:group>
  </entry>
@@ -292,7 +292,7 @@
 #bpstore  #pcgaming  #Aorus #AMD #rtx5090 #AMD #Corsair #whitepcbuild</media:description>
    <media:community>
     <media:starRating count="29" average="5.00" min="1" max="5"/>
-    <media:statistics views="1223"/>
+    <media:statistics views="1225"/>
    </media:community>
   </media:group>
  </entry>
@@ -592,7 +592,7 @@
 #bpstore  #pchiend  #rog #AMD #rtx5080 #Lianli</media:description>
    <media:community>
     <media:starRating count="51" average="5.00" min="1" max="5"/>
-    <media:statistics views="2036"/>
+    <media:statistics views="2037"/>
    </media:community>
   </media:group>
  </entry>
